@@ -25,7 +25,7 @@
 ## 🖥️ Demo
 
 <div align="center">
-![Project Structure Screenshot](public/Screenshot%202024-09-09%20030504.png)
+   <img src = "public/Screenshot 2024-09-09 030504.png" alt="Screenshot">
 </div>
 
 ## 🛠️ Installation
