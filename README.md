@@ -25,7 +25,7 @@
 ## 🖥️ Demo
 
 <div align="center">
-  <img src="/api/placeholder/800/400" alt="Kanban Board Demo" />
+![Project Structure Screenshot](public/Screenshot%202024-09-09%20030504.png)
 </div>
 
 ## 🛠️ Installation
