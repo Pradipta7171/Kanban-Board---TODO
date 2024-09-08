@@ -1,10 +1,5 @@
 # 🚀 Next.js Kanban Board Project
 
-<div align="center">
-[View Demo](https://your-kanban-board-url.vercel.app) | [Report Bug](https://github.com/yourusername/kanban-board/issues) | [Request Feature](https://github.com/Pradipta7171/kanban-board/issues)
-
-</div>
-
 ## 📋 Project Checklist
 
 - [x] Created a Notion doc and copied all contents
@@ -20,7 +15,7 @@
 
 ## ✨ Features
 
-- 🔥 Real-time task updates with Firebase
+- 🔥 Real-time task updates with MongoDB
 - 🏗️ Robust architecture using Next.js and React
 - 🔒 Type-safe development with TypeScript
 - 🎨 Beautiful and responsive UI with Tailwind CSS and Ant Design
