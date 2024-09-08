@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: rgba(255, 255, 255, 1);
+  --foreground: #171717;
+  --pink-glow: rgba(222, 115, 213, 0.3);
+  --blue-glow: rgba(146, 136, 238, 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgba(10, 10, 10, 1);
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1;
+}
+
+body::before {
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: var(--pink-glow);
+}
+
+body::after {
+  top: 60%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background-color: var(--blue-glow);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    @apply bg-white bg-opacity-10 backdrop-blur-md rounded-lg shadow-lg;
+  }
+}
+
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #27ae60;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
