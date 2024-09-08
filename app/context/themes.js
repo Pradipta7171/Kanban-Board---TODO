@@ -2,7 +2,7 @@ const themes = [
   {
     name: "default",
     colorBg: "#252525",
-    colorBg1: "rgba(0, 0, 0, 0.8)",
+    colorBg1: "rgba(0, 0, 0, 1)",
     colorBg2: "rgba(10, 10, 10, 0.3)",
     colorBg5: "rgba(10, 10, 10, 1)",
     colorBg3: "#2F2F2F",
