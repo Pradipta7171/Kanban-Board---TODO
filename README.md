@@ -28,7 +28,8 @@
    <img src = "public/Screenshot 2024-09-09 030504.png" alt="Screenshot">
 </div>
 
-## Live Demo - [kanbanboard-blush.vercel.app](kanbanboard-blush.vercel.app)
+## Live Demo - [https://kanbanboard-blush.vercel.app](https://kanbanboard-blush.vercel.app)
+
 
 ## 🛠️ Installation
 
