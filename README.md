@@ -28,6 +28,8 @@
    <img src = "public/Screenshot 2024-09-09 030504.png" alt="Screenshot">
 </div>
 
+## Live Demo - [kanbanboard-blush.vercel.app](kanbanboard-blush.vercel.app)
+
 ## 🛠️ Installation
 
 1. Clone the repo
@@ -73,7 +75,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Pradipta Dutta - prodipto7171@gmail.com
 
-Project Link: [https://github.com/Pradipta7171/kanban-board](https://github.com/Pradipta7171/kanban-board)
+Project Link: [https://github.com/Pradipta7171/Kanban-Board---TODO](https://github.com/Pradipta7171/Kanban-Board---TODO)
 
 ## 🙏 Acknowledgments
 
