@@ -1,5 +1,7 @@
 # 🚀 Next.js Kanban Board Project
 
+## Notion Link - [https://www.notion.so/Frontend-Task-Kanban-Board-7fb1aa0eef814a4bbf25b93126649303?pvs=4](https://www.notion.so/Frontend-Task-Kanban-Board-7fb1aa0eef814a4bbf25b93126649303?pvs=4)
+
 ## 📋 Project Checklist
 
 - [x] Created a Notion doc and copied all contents
